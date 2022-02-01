@@ -1,11 +1,30 @@
 import React from "react";
+import "./App.css";
 
-// import { Article, Brand, CTA, Feature, Navbar } from "./components";
+import { Brand, CTA, Navbar } from "./components";
+import {
+	Footer,
+	Blog,
+	Possibility,
+	Features,
+	WhatGPT3,
+	Header,
+} from "./containers";
 
 export const App = () => {
 	return (
-		<div>
-			<h1>GPT</h1>
+		<div className="App">
+			<div className="gradient__bg">
+				<Navbar />
+				<Header />
+			</div>
+			<Brand />
+			<WhatGPT3 />
+			<Features />
+			<Possibility />
+			<CTA />
+			<Blog />
+			<Footer />
 		</div>
 	);
 };

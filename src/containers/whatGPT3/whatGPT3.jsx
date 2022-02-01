@@ -1,8 +1,8 @@
 import React from "react";
 import "./whatGPT3.css";
 
-const whatGPT3 = () => {
+const WhatGPT3 = () => {
 	return <div>whatGPT3</div>;
 };
 
-export default whatGPT3;
+export default WhatGPT3;
